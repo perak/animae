@@ -11,7 +11,7 @@ Animate elements on scroll
 
 1. instead `animated` add `animae` class to elements and prefix effects with `a-` (e.g. `bounce` should be `a-bounce`)
 
-2. call `animae()` on content ready (it will do simply: `$(window).on("scroll resize", animae)`) or call `animateVisible()` instead whenever you want.
+2. call `animae()` on content ready (it will do simply: `$(window).on("scroll resize", animateVisible)`) or call `animateVisible()` instead whenever you want.
 
 
 Change background image on scroll
