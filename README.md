@@ -3,7 +3,7 @@ Animae
 
 Modified [animate.css](https://daneden.github.io/animate.css/).
 
-Animae can animate elements if they are visible (in viewport).
+Animae can animate elements when they are visible (in viewport). Also, background image can be changed when some element enters into view.
 
 
 Animate elements on scroll
