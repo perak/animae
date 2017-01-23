@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+	<head>
+		<!-- bootstrap css -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- animae.css -->
+		<link rel="stylesheet" href="../animae.css">
+
+		<style>
+			.example {
+				color: white;
+				overflow: hidden;
+			}
+
+			.row {
+				padding-bottom: 10em;
+			}
+		</style>
+
+	</head>
+
+	<body onLoad="initAnimae()">
+
+		<div class="container example">
+			<div class="row animae" data-background-image="url('https://apod.nasa.gov/apod/image/0801/16500feetmilkywaykc2_brunier.jpg')">
+				<h1 class="animae a-bounce">Section 1</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.					
+				</p>
+				<hr />
+			</div>
+
+
+			<div class="row">
+				<h1 class="animae a-rubberBand">Section 2</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.					
+				</p>
+				<hr />
+			</div>
+
+
+			<div class="row">
+				<h1 class="animae a-tada">Section 3</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.					
+				</p>
+				<hr />
+			</div>
+
+			<div class="row animae" data-background-image="url('http://www.astrophysics.manchester.ac.uk/astronomy/nightsky/ngc1672_hst_big.jpg')">
+				<h1 class="animae a-wobble">Section 4</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.					
+				</p>
+				<hr />
+			</div>
+
+			<div class="row">
+				<h1 class="animae a-jello">Section 5</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.					
+				</p>
+				<hr />
+			</div>
+
+			<div class="row">
+				<h1 class="animae a-shake">Section 6</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.					
+				</p>
+				<hr />
+			</div>
+
+		</div>
+
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+		<!-- bootstrap js -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<!-- animae.js -->
+		<script type="text/javascript" src="../animae.js"></script>
+
+		<script type="text/javascript">
+			var initAnimae = function() {
+				animae({
+					backgroundImage: "https://apod.nasa.gov/apod/image/0801/16500feetmilkywaykc2_brunier.jpg"
+				});
+			}
+		</script>
+	</body>
+</html>
